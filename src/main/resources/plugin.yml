@@ -1,0 +1,21 @@
+name: mmoRace
+main: mmo.Race.MMORace
+version: 0.1
+website: http://forums.bukkit.org/threads/
+author: Rycochet <rycochet@rycochet.com>
+depend: [mmoCore]
+
+description: Provides an API for controlling race.
+permissions:
+  mmo.race.self.set:
+    description: Allowed to set their own race
+    default: true
+  mmo.race.self.change:
+    description: Allowed to change their own race
+    default: op
+  mmo.race.all.set:
+    description: Allowed to set anyone's race (including own)
+    default: op
+  mmo.race.all.change:
+    description: Allowed to change anyone's race (including own)
+    default: op
