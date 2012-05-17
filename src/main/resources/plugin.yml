@@ -1,5 +1,5 @@
 name: mmoRace
-version: ${releaseVersion} b${buildNumber}
+version: ${releaseVersion}.${buildNumber}
 description: Provides an API for controlling race.
 author: mmoMinecraftDev
 website: http://mmo.me.uk
